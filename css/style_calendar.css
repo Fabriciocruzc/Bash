@@ -1,0 +1,90 @@
+.calendar{
+	padding: 10px;
+	margin: 0px;
+	background-color: #fff;
+	width: 500px;;
+	text-align: center;
+	position: relative;
+}
+.calendar .mes{
+	display: none;
+}
+.calendar .mes_title{
+	background: linear-gradient(to right, #3C78B3 , #2E8B57);
+	color: #fff;
+	font-size: 20px;
+}
+.calendar .dias_title{
+	background-color: #ccc;
+	font-size: 16px;
+	color: #333;
+}
+.calendar td{
+	padding: 10px;
+}
+.calendar td.evento{
+	background: linear-gradient(to right, #FFA500 , #FFD700);
+}
+
+.calendar td.atual{
+	background: linear-gradient(to right, #3CB371 , #2E8B57);
+	color: #fff;
+}
+
+.calendar td.evento a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.calendar tr{
+	background-color: #fff;
+	color: #696969;
+	text-align: center;
+	font-weight: bold;
+}
+.calendar #back, .calendar #next{
+	padding: 11.5px 15px;
+	font-size: 20px;
+	text-decoration: none;
+	background: linear-gradient(to right, #fff , #ccc);
+	line-height: 25px;
+	margin: 5px;
+	position: absolute;
+}
+.calendar #back:hover, .calendar #next:hover{
+	background: linear-gradient(to right, #ccc, #fff);
+}
+.calendar #back{
+	left: 10px;
+	top: 5px;
+}
+.calendar #next{
+	right: 10px;
+	top: 5px;
+}
+
+.calendar .legends{
+	float:  left;
+	width: 100%;
+	margin-top: 0px;
+	text-align: left;
+	font-weight: bold;
+}
+.calendar .legends .legenda{
+	float: left;
+	width: 30%;
+}
+
+.orange, .green{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+.orange{
+	background: linear-gradient(to right, #FFA500 , #FFD700);
+}
+.green{
+	background: linear-gradient(to right, #3CB371 , #2E8B57);
+}
